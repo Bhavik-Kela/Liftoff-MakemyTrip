@@ -1,3 +1,4 @@
 # Liftoff-MakemyTrip
 
-![Screenshot 2025-01-31 043823](https://github.com/user-attachments/assets/640a81be-f9d7-4e31-9ccd-a230f50af916)
+
+![Screenshot 2025-02-12 225629](https://github.com/user-attachments/assets/a43fefb2-344a-4bee-842e-7a950e001a99)
