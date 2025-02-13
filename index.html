@@ -1,71 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MakeMyTrip Clone</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-    <!-- Top Links Section -->
-    <section class="top-links">
-        <a href="#">Flights</a>
-        <a href="#">Hotels</a>
-        <a href="#">Trains</a>
-        <a href="#">Buses</a>
-        <a href="#">Cabs</a>
-        <a href="#">Forex</a>
-        <a href="#">Travel Insurance</a>
-    </section>
-
-    <!-- Header Section -->
-    <header>
-        <div class="logo">Make<span>My</span>Trip</div>
-        <button class="login-btn">Login or Create Account</button>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="search-box">
-            <h2>Book International and Domestic Flights</h2>
-            <div class="trip-options">
-                <input type="radio" name="trip" checked> One Way
-                <input type="radio" name="trip"> Round Trip
-                <input type="radio" name="trip"> Multi City
-            </div>
-            <div class="search-fields">
-                <input type="text" placeholder="From (e.g., Delhi)">
-                <input type="text" placeholder="To (e.g., Bengaluru)">
-                <input type="date">
-                <button class="search-btn">SEARCH</button>
-            </div>
-        </div>
-    </section>
-
-    <section class="offers">
-        <h2>Offers</h2>
-        <div class="offer-cards">
-            <div class="offer">Bank Offers</div>
-            <div class="offer">Flight Discounts</div>
-            <div class="offer">Hotel Deals</div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    
-</body>
-<footer>
-    <p>&copy; 2025 MakeMyTrip Clone. All Rights Reserved.</p>
-</footer>
-
-</html>
-
-
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -281,5 +213,147 @@
             </div>
         </div>
     </div>
+
+    
+<div class="offers-container">
+    <div class="offers-header">
+      <h2>Offers</h2>
+      <nav>
+        <ul class="offers-nav">
+          <li><a href="#" class="active">All Offers</a></li>
+          <li><a href="#">Bank Offers</a></li>
+          <li><a href="#">Flights</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Holidays</a></li>
+          <li><a href="#">Trains</a></li>
+          <li><a href="#">Cabs</a></li>
+          <li><a href="#">Bus</a></li>
+          <li><a href="#">Forex</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="view-all">
+        VIEW ALL
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </a>
+    </div>
+  
+    <div class="offers-grid">
+      <div class="offer-card">
+        <img src="hotel.jpg" alt="Hotel offer" class="offer-image">
+        <div class="offer-content">
+          <div class="offer-tag">DOM HOTELS</div>
+          <h3 class="offer-title">Grab Up to 35% OFF*</h3>
+          <p class="offer-description">on Hotels, Homestays & Villas in India with our Check-in to a Break Sale!</p>
+          <div class="terms">T&C'S APPLY</div>
+          <a href="#" class="action-button">BOOK NOW</a>
+        </div>
+      </div>
+  
+      <div class="offer-card">
+        <img src= "flight.jpg" alt="Flight offer" class="offer-image">
+        <div class="offer-content">
+          <div class="offer-tag">DOM FLIGHTS</div>
+          <h3 class="offer-title">LIVE NOW: Valentine's Sale by IndiGo</h3>
+          <p class="offer-description">Up to 50% OFF* on bookings made for two people*.</p>
+          <div class="terms">T&C'S APPLY</div>
+          <a href="#" class="action-button">BOOK NOW</a>
+        </div>
+      </div>
+  
+      <div class="offer-card">
+        <img src="luxury.jpg" alt="Luxury hotel" class="offer-image">
+        <div class="offer-content">
+          <div class="offer-tag">DOM HOTELS</div>
+          <h3 class="offer-title">Hotels in Spotlight:</h3>
+          <p class="offer-description">Luxury Stays Chosen by Our Experts for Your Next Relaxing Break.</p>
+          <div class="terms">T&C'S APPLY</div>
+          <a href="#" class="action-button">EXPLORE NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flagship-container">
+    <div class="hotels-section">
+      <h2 class="hotel-heading">Flagship Hotel Stores on MakeMyTrip</h2>
+      
+      <div class="hotels-grid">
+        <div class="hotel-card">
+          <div class="hotel-logo">
+            <img src="/api/placeholder/40/40" alt="Tamara logo" style="border-radius: 50%">
+          </div>
+          <img src="/api/placeholder/400/300" alt="Tamara Hotels">
+          <div class="hotel-name">Tamara Hotels</div>
+        </div>
+  
+        <div class="hotel-card">
+          <div class="hotel-logo">
+            <img src="/api/placeholder/40/40" alt="Lemon Tree logo" style="border-radius: 50%">
+          </div>
+          <img src="/api/placeholder/400/300" alt="Lemon Tree Hotels">
+          <div class="hotel-name">Lemon Tree Hotels</div>
+        </div>
+  
+        <div class="hotel-card">
+          <div class="hotel-logo">
+            <img src="/api/placeholder/40/40" alt="Polo Towers logo" style="border-radius: 50%">
+          </div>
+          <img src="/api/placeholder/400/300" alt="Polo Towers">
+          <div class="hotel-name">Polo Towers</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="insights-container">
+    <button class="nav-button prev">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M15 18l-6-6 6-6" stroke-width="2"/>
+      </svg>
+    </button>
+  
+    <div class="insights-slider">
+      <div class="insight-card">
+        <div class="icon-container">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke-width="2"/>
+            <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="content">
+          <p class="insight-text">Check out our Indian Travel Trends Report. Our trends report 2023-24 is out now. Read on for top travel insights.</p>
+        </div>
+      </div>
+  
+      <div class="insight-card">
+        <div class="icon-container">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="content">
+          <p class="insight-text">Book Flights with Voice Chat! Code: <span class="highlight">MMTMYRA</span> will be auto-applied for EXTRA discounts!</p>
+        </div>
+      </div>
+  
+      <div class="insight-card">
+        <div class="icon-container">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M12 20v-6M6 20V10M18 20V4" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="content">
+          <p class="insight-text">Finding Indian Food just got easier! Use newly launched filters to find Indian food during International travel</p>
+        </div>
+      </div>
+    </div>
+  
+    <button class="nav-button next">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M9 18l6-6-6-6" stroke-width="2"/>
+      </svg>
+    </button>
+  </div>
 </html>
->>>>>>> c211f0b (made better)
